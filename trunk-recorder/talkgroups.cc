@@ -107,6 +107,6 @@ Talkgroup *Talkgroups::find_talkgroup(long tg_number) {
 }
 
 void Talkgroups::add(long num, std::string alphaTag) {
-  Talkgroup *tg = new Talkgroup(num, 0, alphaTag, "", "", "", 0);
+  Talkgroup *tg = new Talkgroup(num, 0, 'X', alphaTag, "", "", "", 0);
   talkgroups.push_back(tg);
 }
